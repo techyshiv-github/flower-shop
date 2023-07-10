@@ -2,10 +2,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+ 
 }
 body{
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 }
 .btn-primary{
     background-color: #E55473;
@@ -16,6 +17,24 @@ body{
     padding: 20px 44px;
     border-radius: 10px;
     cursor: pointer;
+}
+section{
+    margin: 0 auto;
+    padding: 100px 150px 0 150px;
+    text-align: center;
+}
+.section-title{
+color: #272727;
+margin-bottom: 20px;
+font-size: 40px;
+font-weight: 800;
+}
+.section-description{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+width: 600px;
+margin: 0 auto;
 }
 /* Hero Banner Styles */
 .hero-banner-container{
@@ -46,13 +65,5 @@ font-weight: 400;
    width:448px;
 }
 /* featured flower styles */
-.featured-flowers-container{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-section{
-    margin-top: 128px;
-    width: 1140px;
-    text-align: center;
-}
+
+
