@@ -28,6 +28,7 @@ color: #272727;
 margin-bottom: 20px;
 font-size: 40px;
 font-weight: 800;
+padding-bottom: 40px;
 }
 .section-description{
 color: rgba(39, 39, 39, 0.60);
@@ -35,6 +36,7 @@ font-size: 18px;
 font-weight: 400;
 width: 600px;
 margin: 0 auto;
+padding-bottom: 40px;
 }
 /* Hero Banner Styles */
 .hero-banner-container{
@@ -65,5 +67,45 @@ font-weight: 400;
    width:448px;
 }
 /* featured flower styles */
+#flower-1{
+    background: rgba(167, 33, 98, 0.15);
+}
+#flower-2{
+    background: rgba(5, 151, 160, 0.15);
+}
+#flower-3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+figure>img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+  
+}
+figure{
+width: 450px;
+height: 480px;
+border-radius: 300px 300px 0px 0px;
+position: relative;
+}
+figcaption{
+color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+position: absolute;
+background-color: #fff;
+width: 100%;
+bottom: -15px;
+text-decoration-line: underline;
+cursor: pointer;
+}
+.featured-flower-container{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+}
 
 
