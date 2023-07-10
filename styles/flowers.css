@@ -209,3 +209,20 @@ font-size: 16px;
 font-weight: 400;
 
 }
+/* My own Extra Bonus Section */
+.search-flower{
+    background-color:#E4ECDC;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.search-flower input[type="text"]{
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    background: #FFF;
+    border: none;
+    width: 50%;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 10px;
+}
