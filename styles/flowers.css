@@ -11,6 +11,8 @@ body{
     background-color: #E55473;
     border: none;
     color: #fff;
+    font-size: 20px;
+    font-weight: 700;
     padding: 20px 44px;
     border-radius: 10px;
     cursor: pointer;
@@ -42,4 +44,15 @@ font-weight: 400;
 }
 .banner-right-content img{
    width:448px;
+}
+/* featured flower styles */
+.featured-flowers-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+section{
+    margin-top: 128px;
+    width: 1140px;
+    text-align: center;
 }
