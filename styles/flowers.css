@@ -66,7 +66,7 @@ font-weight: 400;
 .banner-right-content img{
    width:448px;
 }
-/* featured flower styles */
+/* featured flower section css */
 #flower-1{
     background: rgba(167, 33, 98, 0.15);
 }
@@ -103,9 +103,29 @@ text-decoration-line: underline;
 cursor: pointer;
 }
 .featured-flower-container{
-    margin-top: 100px;
+    margin-top: 40px;
     display: flex;
     gap: 20px;
 }
+
+/* flower service section css */
+.service-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 80px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+.service h3{
+color: rgba(39, 39, 39, 0.80);
+font-size: 16px;
+font-weight: 600;
+}
+.service img{
+    width: 64px;
+}
+
 
 
