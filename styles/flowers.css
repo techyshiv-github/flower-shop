@@ -138,6 +138,15 @@ font-weight: 600;
 .highlight{
     color: #E55473;
 }
+/* instagram posts sections styles */
+.instagram-posts-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.instagram-posts-container img{
+width: 200px;
+}
 
 
 
