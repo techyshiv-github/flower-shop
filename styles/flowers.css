@@ -1,3 +1,4 @@
+/* Common Styles */
 *{
     margin: 0;
     padding: 0;
@@ -5,4 +6,40 @@
 }
 body{
     font-family: 'Lato', sans-serif;
+}
+.btn-primary{
+    background-color: #E55473;
+    border: none;
+    color: #fff;
+    padding: 20px 44px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Hero Banner Styles */
+.hero-banner-container{
+    background-color:rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px 0 150px;
+}
+.banner-left-content{
+    width: 800px;
+}
+.banner-left-content h1{
+color: #272727;
+font-size: 60px;
+font-weight: 800;
+}
+.banner-left-content p{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+.banner-left-content h1, p{
+    margin-bottom: 32px;
+}
+.banner-right-content img{
+   width:448px;
 }
