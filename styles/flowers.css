@@ -145,8 +145,39 @@ font-weight: 600;
     gap: 20px;
 }
 .instagram-posts-container img{
-width: 200px;
+width: 250px;
 }
 
+/* Email Subscription section styles */
+.section-container{
+    margin: 100px 150px 0 150px;
+    text-align: center;
+    background-image: url('../assets/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input[type="email"]{
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    background: #FFF;
+    border: none;
+    width: 50%;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
 
+}
 
+input[type="submit"]{
+    background-color: #E55473;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
